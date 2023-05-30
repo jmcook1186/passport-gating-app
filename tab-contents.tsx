@@ -45,7 +45,7 @@ const Welcome = () => {
             <p>A Passport score is calculated from the stamps held in your Passport. The more stamps, the higher the score.</p>
             <br />
             <p><b>Get started by connecting your wallet and then connecting your Passport</b></p>
-            <p>To add stamps to your Passport, visit the <Link href="passport.gitcoin.co" color='teal.500' isExternal>Passport App</Link>.</p>
+            <p>To add stamps to your Passport, visit the <Link href="https://passport.gitcoin.co" color='teal.500' isExternal>Passport App</Link>.</p>
         </>
     )
 }
@@ -130,14 +130,12 @@ const ContentBelowThreshold = () => {
             <p>We would love you to join our DAO.</p>
             <br />
             <p>Unfortunately, you do not quite meet the eligibility criteria.</p>
-            <p>You can go to the <Link href="passport.gitcoin.co" color='teal.500' isExternal>Passport App </Link> and add more stamps to your Passport.</p>
+            <p>You can go to the <Link href="https://passport.gitcoin.co" color='teal.500' isExternal>Passport App </Link> and add more stamps to your Passport.</p>
             <p>When you have enough stamps to generate a score above 20, you can come back and join our DAO!</p>
             <br />
-            <p>In the meantime you can read our <Link href="docs.gitcoin.co" color='teal.500' isExternal> awesome documentation </Link> to learn more about Gitcoin passport</p>
+            <p>In the meantime you can read our <Link href="https://docs.gitcoin.co" color='teal.500' isExternal> awesome documentation </Link> to learn more about Gitcoin passport</p>
         </>
     )
 }
-
-
 
 export { TabLayout };
