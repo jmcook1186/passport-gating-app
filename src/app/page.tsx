@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import { ethers } from 'ethers'
 import { ChakraProvider, Button, Flex, Heading } from '@chakra-ui/react'
-import { TabLayout } from '../../tab-contents'
+import { TabLayout } from './tab-contents'
 
 const APIKEY = process.env.NEXT_PUBLIC_GC_API_KEY
 const SCORERID = process.env.NEXT_PUBLIC_GC_SCORER_ID
@@ -139,7 +139,7 @@ export default function Passport() {
         <br />
         <Heading as='h1' size='4xl' noOfLines={2}>Welcome to the decentralized web</Heading>
         <br />
-        <TabLayout isAboveThreshold={isAboveThreshold} />
+        <TabLayout isAboveThreshold={isAboveThreshold} score={score} />
 
       </ChakraProvider >
     </div >
